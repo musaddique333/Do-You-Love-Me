@@ -95,6 +95,7 @@ h1:hover {
     border-radius: 50px; /* Rounded corners for a softer look */
     transition: all 0.1s ease; /* Smooth transition for interactions */
     cursor: pointer; /* Changes the cursor to indicate it's clickable */
+    font-family: 'Cursive', sans-serif; /* Romantic, cursive font */
 }
 
 #yes-button {
