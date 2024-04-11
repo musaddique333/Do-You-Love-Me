@@ -8,7 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-family: 'Cursive', sans-serif;
+    font-family: 'Cursive', sans-serif; /* Romantic, cursive font */
 }
 
 @media (max-width: 768px) {
