@@ -117,3 +117,20 @@ h1:hover {
     transform: scale(0.95); /* Subtle click effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Less shadow to mimic pressing down */
 }
+
+
+audio {
+    width: 300px; /* Adjust based on your design preferences */
+    position: fixed; /* Or absolute, depending on your layout */
+    top: 0; /* Position it at the bottom of the viewport */
+    left: 50%; /* Center it horizontally */
+    transform: translateX(-50%); /* Adjust for true center alignment */
+    border-radius: 25px; /* Soften the edges for a more aesthetic look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Consistent with your theme */
+    opacity: 0.7; /* Slightly transparent for a softer appearance */
+    transition: opacity 0.3s ease; /* Smooth transition for hover effects */
+}
+
+audio:hover {
+    opacity: 1; /* Fully opaque on hover for better visibility */
+}

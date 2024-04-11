@@ -2,15 +2,20 @@ function clickYesButton() {
     var content = '<p id="second-p" style="font-size: 24px; color: #FF5678;">I love you too Simran</p>';
     content += '<img id="second-img" src="https://media.tenor.com/9uprlTXW3kUAAAAi/cute-love.gif" alt="Love" style="margin-top: 20px;">';
     document.body.innerHTML = content;
+    var audioElement = document.createElement('audio');
+    audioElement.setAttribute('controls', '');
+    audioElement.setAttribute('src', './second.mp3');
+    // Append the audio element to the body
+    document.body.appendChild(audioElement);
 }
 
 
 //move button on hover
 function hoverNoButton() {
     // random from 0 to 1, then multiply with screen size
+    document.getElementById("audio").play();
     let x = Math.random() * window.innerWidth;
     let y = Math.random() * window.innerHeight;
-
     document.getElementById('no-button').style.left = x + 'px';
     document.getElementById('no-button').style.top = y +'px';
     
