@@ -1,5 +1,5 @@
 function clickYesButton() {
-    var content = '<p id="second-p" style="font-size: 24px; color: #FF5678;">I love too you Simran</p>';
+    var content = '<p id="second-p" style="font-size: 24px; color: #FF5678;">I love you too Simran</p>';
     content += '<img id="second-img" src="https://media.tenor.com/9uprlTXW3kUAAAAi/cute-love.gif" alt="Love" style="margin-top: 20px;">';
     document.body.innerHTML = content;
 }
