@@ -4,6 +4,8 @@ function clickYesButton() {
     document.body.innerHTML = content;
     var audioElement = document.createElement('audio');
     audioElement.setAttribute('controls', '');
+    audioElement.setAttribute('autoplay', '');
+    audioElement.setAttribute('loop', '');
     audioElement.setAttribute('src', './second.mp3');
     // Append the audio element to the body
     document.body.appendChild(audioElement);
